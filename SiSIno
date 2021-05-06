@@ -1,0 +1,20 @@
+Algoritmo ingreso_al_campus
+
+	Definir usuario Como logico;
+	usuario = Verdadero;
+	Definir  contrasenia Como logico;
+	contrasenia = verdadero;
+	
+	Escribir "Cual es tu usuario?";
+	Leer panel;
+	
+	Escribir  "Cual es tu contrasenia?";
+	Leer panel;
+	
+Si (usuario y contrasenia) Entonces;
+	Escribir "Bienvenido Erick!";
+SiNo;
+	Escribir "Usuario invalido!";
+Fin Si;
+	
+FinAlgoritmo
